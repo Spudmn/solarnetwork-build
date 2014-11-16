@@ -23,6 +23,7 @@
 <plugin id="com.fasterxml.jackson.core.jackson-core"/>
 <plugin id="com.fasterxml.jackson.core.jackson-databind"/>
 <plugin id="com.fasterxml.jackson.datatype.jackson-datatype-joda"/>
+<plugin id="com.fasterxml.jackson.module.jackson.module.scala"/>
 <plugin id="com.google.guava"/>
 <plugin id="com.springsource.com.ibatis"/>
 <plugin id="com.springsource.com.ibatis.source"/>
@@ -83,6 +84,9 @@
 <plugin id="org.apache.jasper"/>
 <plugin id="org.apache.juli.extras"/>
 <plugin id="org.apache.servicemix.bundles.aopalliance"/>
+<plugin id="org.apache.servicemix.bundles.commons-lang"/>
+<plugin id="org.apache.servicemix.bundles.json4s"/>
+<plugin id="org.apache.servicemix.bundles.paranamer"/>
 <plugin id="org.apache.servicemix.bundles.spring-aop"/>
 <plugin id="org.apache.servicemix.bundles.spring-aspects"/>
 <plugin id="org.apache.servicemix.bundles.spring-beans"/>
@@ -102,6 +106,8 @@
 <plugin id="org.apache.servicemix.bundles.spring-web.source"/>
 <plugin id="org.apache.servicemix.bundles.spring-webmvc"/>
 <plugin id="org.apache.servicemix.bundles.spring-webmvc.source"/>
+<plugin id="org.apache.servicemix.bundles.swagger-annotations"/>
+<plugin id="org.apache.servicemix.bundles.swagger-core"/>
 <plugin id="org.apache.taglibs.standard-impl"/>
 <plugin id="org.apache.taglibs.taglibs-standard-spec"/>
 <plugin id="org.apache.tiles-template"/>
@@ -147,6 +153,8 @@
 <plugin id="org.mybatis.mybatis.source"/>
 <plugin id="org.osgi.service.obr"/>
 <plugin id="org.osgi.service.obr.source"/>
+<plugin id="org.scala-lang.scala-library"/>
+<plugin id="org.scala-lang.scala-reflect"/>
 <plugin id="org.slf4j.osgi-over-slf4j"/>
 <plugin id="org.springframework.binding"/>
 <plugin id="org.springframework.js"/>
